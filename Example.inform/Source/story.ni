@@ -8,4 +8,16 @@ The Kitchen is a room. North is The bathroom. The Kitchen has the description "T
 
 There is a shower in the bathroom. 
 
-The garden is a room. South is The garden. The garden has the description "This is where the trees are." In the garden is a cat and a dog. 
+The garden is a room. South is The garden. The garden has the description "This is where the trees are." In the garden is a cat. 
+
+The cat is an animal in the garden. The description of the cat is "A fluffy black and white cat lounges in the sun, licking its paws."
+
+To pet the cat:
+  say "You reach out and stroke the cat's fur. It purrs contentedly."
+
+To pick up the cat:
+  say "You scoop up the cat in your arms. It meows softly.";
+  now the cat is held by the player.
+
+Test me with "look / pet cat / pick up cat / drop cat / look".
+
